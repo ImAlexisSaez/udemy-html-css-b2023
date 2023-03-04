@@ -9,4 +9,10 @@ Código generado en la visualización activa del curso de _Udemy_ "**The HTML an
 En la carpeta [section02](/section02) encontramos:
 
 -   [exercise01.html](/section02/exercise01.html): código asociado al ejercicio propuesto en la lección.
--   [first_page.html](/section02/first_page.html): documento HTML con los apuntes correspondientes a los elementos `p` y `h1`, `h2`... `h6`, así como a la estructura que debe poseer el documento en sí. Además, se trata el tema de los comentarios en HTML
+-   [first_page.html](/section02/first_page.html): documento HTML con los apuntes correspondientes a los elementos `p` y `h1`, `h2`, ..., `h6`; así como a la estructura que debe poseer el documento en sí. Además, se trata el tema de los comentarios en HTML.
+
+### Section 3: "More HTML"
+
+En la carpeta [section03](/section03/) encontramos:
+
+-   [second_page.html](/section03/second_page.html): documento HTML con los apuntes correspondientes a _listas_, elementos que resaltan texto, subíndices y superíndices,
