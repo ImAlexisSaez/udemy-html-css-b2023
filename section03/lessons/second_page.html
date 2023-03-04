@@ -7,7 +7,7 @@
         <title>Segunda página</title>
     </head>
     <body>
-        <h1>Elementos adicionales de HTML</h1>
+        <h1 id="inicio">Elementos adicionales de HTML</h1>
 
         <h2>Listas</h2>
 
@@ -69,5 +69,51 @@
             x<sub>1</sub> + x<sub>2</sub> = 1. Los subíndices nos pueden ayudar
             a representar, en matemáticas, variables.
         </p>
+
+        <h2>Elementos que ocupan la línea entera</h2>
+        <!-- Algunos elementos tienen una caja que solo ocupa su longitud -->
+        <em>Ejemplo de énfasis</em>
+        <em>Otro ejemplo de énfasis a continuación</em>
+        <!-- Otros elementos tienen una caja que ocupa la longitud de la pantalla -->
+        <p>Párrafo en nueva línea</p>
+        <em>Énfasis que no aparece a continuación del párrafo.</em>
+
+        <h2>Enlaces</h2>
+
+        Se recomienda consultar la documentación de HTML en
+        <a href="https://developer.mozilla.org/es/">MDN</a>.
+
+        <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+        </ul>
+
+        <p>
+            Los enlaces pueden ser a páginas web que no forman parte de nuestro
+            sitio (externos) o páginas de nuestro sitio web (interno). Por
+            ejemplo, el siguiente enlace nos llevaría a una página ubicada en la
+            misma carpeta que este documento HTML:
+            <a href="contact.html">Contacto</a>.
+        </p>
+
+        <p>
+            Además, podemos encontrar enlaces a ciertas partes de un mismo
+            documento HTML. Por ejemplo, este nos lleva al principio de la
+            página web: <a href="#inicio">inicio</a>.
+        </p>
+
+        <h2>Imágenes</h2>
+
+        <img src="images/spacecat.png" alt="cat-img" />
+
+        <p>
+            La siguiente imagen proviene de <em>Unsplash</em> y está creada por
+            <em>Tino Rischawy</em>:
+        </p>
+        <img
+            src="https://images.unsplash.com/photo-1677856216846-596a3d6d869e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="mountains-img"
+        />
     </body>
 </html>
