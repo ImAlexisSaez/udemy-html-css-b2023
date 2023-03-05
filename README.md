@@ -25,7 +25,7 @@ En la carpeta [section04](/section04/) encontramos:
 -   La carpeta [exercises](/section04/exercises/), que contiene el archivo `landing_page.html` con el código asociado al ejercicio propuesto en la lección.
 -   La carpeta [lessons](/section04/lessons/), que contiene el archivo `formularios.html` con los apuntes correspondientes a _formularios_.
 
-### Section 5: ""
+### Section 5: "Other elements"
 
 En la carpeta [section05](/section05/) encontramos:
 
