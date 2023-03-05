@@ -17,3 +17,10 @@ En la carpeta [section03](/section03/) encontramos:
 
 -   La carpeta [exercises](/section03/exercises/), que contiene el archivo `pasta.html` con el código asociado al ejercicio propuesto en la lección.
 -   La carpeta [lessons](/section03/lessons/), que contiene el archivo `second_page.html` con los apuntes correspondientes a _listas_, elementos que _resaltan texto_, _subíndices_ y _superíndices_, _enlaces_ e _imágenes_. Además, se han generado las carpetas y los documentos auxiliares necesarios para el correcto funcionamiento de los elementos del mencionado archivo.
+
+### Section 4: "Working with forms"
+
+En la carpeta [section04](/section04/) encontramos:
+
+-   La carpeta [exercises](/section04/exercises/), que contiene el archivo `landing_page.html` con el código asociado al ejercicio propuesto en la lección.
+-   La carpeta [lessons](/section04/lessons/), que contiene el archivo `formularios.html` con los apuntes correspondientes a _formularios_.
