@@ -36,4 +36,4 @@ En la carpeta [section05](/section05/) encontramos:
 En la carpeta [section06](/section06/) encontramos:
 
 -   La carpeta [exercises](/section06/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
--   La carpeta [lessons](/section06/lessons/), que contiene los archivos con los apuntes correspondientes a los diferentes modos de trabajar con estilos (en línea, internos y externos),
+-   La carpeta [lessons](/section06/lessons/), que contiene los archivos con los apuntes correspondientes a los diferentes modos de trabajar con estilos (en línea, internos y externos) y a la selección de elementos para declarar sus estilos.
