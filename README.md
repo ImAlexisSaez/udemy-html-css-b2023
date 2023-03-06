@@ -30,3 +30,10 @@ En la carpeta [section04](/section04/) encontramos:
 En la carpeta [section05](/section05/) encontramos:
 
 -   La carpeta [lessons](/section05/lessons/), que contiene el archivo `otros_elementos.html` con los apuntes correspondientes a elementos tales como `span`, `div`, _tablas_ y elementos semánticos.
+
+### Section 6: "CSS basics"
+
+En la carpeta [section06](/section06/) encontramos:
+
+-   La carpeta [exercises](/section06/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+-   La carpeta [lessons](/section06/lessons/), que contiene los archivos con los apuntes correspondientes a los diferentes modos de trabajar con estilos (en línea, internos y externos),
