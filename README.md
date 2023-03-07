@@ -37,3 +37,10 @@ En la carpeta [section06](/section06/) encontramos:
 
 -   La carpeta [exercises](/section06/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
 -   La carpeta [lessons](/section06/lessons/), que contiene los archivos con los apuntes correspondientes a los diferentes modos de trabajar con estilos (en línea, internos y externos) y a la selección de elementos para declarar sus estilos.
+
+### Section 7: "The world of CSS colors"
+
+En la carpeta [section07](/section07/) encontramos:
+
+-   La carpeta [exercises](/section07/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+-   La carpeta [lessons](/section07/lessons/), que contiene los archivos con los apuntes correspondientes al trabajo con colores en CSS, así como a una breve introducción a cuestiones de herencia.
