@@ -1,0 +1,46 @@
+/* Elementos HTML */
+
+a {
+    background-color: magenta;
+    color: cyan;    
+}
+
+body {
+    background-color: rgb(190, 205, 34);
+    color: rgb(190, 101, 101);
+}
+
+div {
+    /* Cada div tendrá un borde azul, pero sus hijos no lo heredan */
+    border: 1px solid blue;
+    color:red;    
+}
+
+h1 {
+    background-color: rgba(255, 255, 0, 0.5);
+    color: teal;
+}
+
+h2 {
+    background-color: olivedrab;    
+    color: orangered;  
+    /* La propiedad opacity afecta a todo el elemento, no solo al color del texto o del fondo */
+    opacity: 80%;
+}
+
+li {
+    background-color: rgb(212, 210, 210);
+    /* Hereda el color de texto del elemento body */
+}
+
+p {
+    /* Hereda el color de fondo del elemento body */
+    color: rgb(105, 10, 214);
+    /* Si quiero que los párrafos hereden el borde del padre, debo usar inherit */
+    border: inherit;
+}
+
+span {
+    color: orange;
+}
+
