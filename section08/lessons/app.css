@@ -1,0 +1,41 @@
+a {
+    /* Cambia a cursiva */
+    font-style: italic;
+}
+
+/* Las fuentes se heredan. Si ponemos una para body, será la de sus hijos */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    /* Cambia el grosor de la fuente */
+    font-weight: 100;
+
+    /* Cambia el espaciado entre letras */
+    letter-spacing: 20px;
+
+    /* El texto se centra en su elemento de referencia */
+    /* Es una propiedad que también se hereda */
+    text-align: center;
+
+    /* Sombras de texto (ver docs en MDN) */
+    text-shadow: 40px -40px 5px black;
+
+    /* Al cambiar el ancho de la caja, no queda en el centro de la página */
+    width: 500px;
+}
+
+p {
+    /* Los enlaces en el interior de los párrafos heredan también este tamaño */
+    font-size: 20px;
+    font-weight: bold;
+
+    /* Cambia la separación entre líneas */
+    line-height: 2; /* Sería 2 por el tamaño de la fuente */
+
+    /* Cambia el espaciado entre palabras */
+    /* word-spacing: 20px; */
+}
