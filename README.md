@@ -52,3 +52,10 @@ En la carpeta [section08](/section08/) encontramos:
 - La carpeta [exercises](/section08/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
 - La carpeta [lessons](/section08/lessons/), que contiene los archivos con los apuntes correspondientes al trabajo con texto en CSS (configuración de fuentes).
 - La carpeta [project](/section08/project/), que contiene los archivos con el código asociado al proyecto "_Cantilever_".
+
+### Section 9: "Styling text"
+
+En la carpeta [section09](/section09/) encontramos:
+
+- La carpeta [exercises](/section09/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+- La carpeta [lessons](/section09/lessons/), que contiene los archivos con los apuntes correspondientes a la profundización del trabajo con texto en CSS (transformación, decoración...), a la selección de elementos definidos por clases, pseudoclases e identificadores y al trabajo con listas y enlaces.
