@@ -1,0 +1,59 @@
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: magenta;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: orange;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    /* font es un atajo para escribir varias propiedades de la fuente */
+    font: 100 60px "Montserrat", sans-serif;
+
+    /* Cambia decoración del texto */
+    /* text-decoration-color: pink; */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-thickness: 5px; */
+
+    /* Se pueden abreviar las cuatro líneas anteriores */
+    text-decoration: pink line-through wavy 5px;
+
+    /* Pone en mayúsculas cada palabra */
+    text-transform: uppercase;
+}
+
+/* Elegimos un span que hemos identificado previamente en HTML con un id */
+#cast {
+    /* Quita los puntos de una lista */
+    /* list-style-type: none; */
+
+    /* Incluye la viñeta en el elemento li */
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+#featured {
+    background-color: gold;
+    font-size: 20px;
+}
+
+#reviews {
+    text-decoration: gold underline;
+}
+
+/* Elegimos una clase utilizando el . */
+.tag {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
