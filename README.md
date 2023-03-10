@@ -59,3 +59,10 @@ En la carpeta [section09](/section09/) encontramos:
 
 - La carpeta [exercises](/section09/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
 - La carpeta [lessons](/section09/lessons/), que contiene los archivos con los apuntes correspondientes a la profundización del trabajo con texto en CSS (transformación, decoración...), a la selección de elementos definidos por clases, pseudoclases e identificadores y al trabajo con listas y enlaces.
+
+### Section 10: "Selectors"
+
+En la carpeta [section10](/section10/) encontramos:
+
+- La carpeta [exercises](/section10/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+- La carpeta [lessons](/section10/lessons/), que contiene los archivos con los apuntes correspondientes a la elección de selectores en CSS (universal, de elemento, de clase, de _id_, de atributo, de grupo, descendientes, de hijos directos y de composición).
