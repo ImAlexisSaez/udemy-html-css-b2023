@@ -1,0 +1,95 @@
+/* Con * seleccionamos todos los elementos del documento */
+/* Puede ser útil para resetear estilos por defecto de los navegadores */
+* {
+    background-color: whitesmoke;
+    /* margin: 10; */
+    /* padding: 10; */
+}
+
+/* Elementos */
+a {
+    color: rgb(4, 56, 56);
+}
+
+body {
+    font-family: Merriweather, serif;
+}
+
+p {
+    color: purple;
+}
+
+/* Clases */
+.tag {
+    color: orange;
+}
+
+/* ID */
+#featured {
+    color: gold;
+}
+
+/* Atributos */
+
+/* Nos permiten elegir elementos según el valor particular de algún atributo */
+/* Los id y las clases son también atributos, pero generalmente usaremos otros */
+
+/* De los input, vamos a escoger el de tipo número solo */
+input[type="number"] {
+    background-color: gold;
+}
+
+/* Podemos usar patrones o expresiones regulares */
+/* a[href*="wiki"]     Enlaces con "wiki" en cualquier lugar de la url */
+/* a[href^="#"]        Enlaces que empiecen con el símbolo # */
+/* a[href$=".org"]     Enlaces que acaben en ".org" */
+a[href^="#"] {
+    color: gold;
+}
+
+a[href*="wiki"] {
+    color: blue;
+}
+
+a[href$=".org"] {
+    color: orangered;
+}
+
+/* Grupos de selectores */
+
+/* Se usa una , para separar elementos que tengan el mismo estilo */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Work Sans", sans-serif;
+}
+
+#featured,
+.tag {
+    background-color: orangered;
+    color: white;
+}
+
+/* Descendant combinator */
+/* Los elementos se separan por un espacio, en orden de exterior a interior */
+#cast span {
+    color: gray;
+}
+
+/* Child combinator */
+/* Se usa el símbolo > y solo toma los hijos directos del elemento */
+/* Si hubiese más del mismo tipo anidados, no los escoge */
+ol > li {
+    border: 1px solid red;
+    /* Cuidado con las propiedades que se heredan, como color. */
+    /* color: green; Afecta a todos los li, directos y anidados */
+}
+
+/* Composición de selectores */
+/* No se usa espacio entre los elementos */
+h2.score {
+    color: violet;
+}
