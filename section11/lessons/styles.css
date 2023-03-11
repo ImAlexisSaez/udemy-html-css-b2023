@@ -1,0 +1,127 @@
+#borders {
+    /* Propiedad atajo: podría definir los colores para los bordes por separado */
+    /* border-color: gold; */
+    border-top-color: red;
+    border-left-color: orange;
+    border-bottom-color: blueviolet;
+    border-right-color: aliceblue;
+
+    /* Las siguientes propiedades también se podrían desglosar por lados como arriba */
+    border-style: solid;
+    border-width: 5px;
+}
+
+#ex1 {
+    /* Con border podemos declarar varias cosas a la vez */
+    border: 5px solid greenyellow;
+}
+
+#ex2 {
+    /* Incluso tenemos atajos para los lados del borde */
+    border-bottom: 5px solid palegoldenrod;
+}
+
+#ex3 {
+    border: 5px solid orangered;
+    /* Con width y height controlamos las dimensiones del contenido de la caja */
+    height: 200px;
+    width: 500px;
+}
+
+#ex4 {
+    border: 5px solid olivedrab;
+}
+
+#container {
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+}
+
+.box {
+    border: 1px solid orange;
+    /* Podemos usar porcentajes para estos atributos */
+    height: 50%;
+    width: 50%;
+}
+
+#google-link {
+    border: 1px solid black;
+    font-size: 30px;
+    /* El padding es la distancia entre el contenido y el margen */
+    /* padding-right: 30px; */
+    /* padding-left: 50px; */
+    /* padding-top: 40px; */
+    /* padding-bottom: 60px; */
+
+    /* Las cuatro líneas anteriores tienen atajo */
+    /* padding: 10px; */
+
+    /* Podemos insertar cuatro valores en dirección horaria */
+    /* padding: 5px 0 5px 0; */
+
+    /* Con dos valores es arriba-abajo, izquierda-derecha */
+    padding: 10px 20px;
+}
+
+/* La sintaxis para los márgenes es similar a la de padding */
+/* Algunos elementos, por defecto, tienen margen declarado */
+/* Cuidado: los elementos en línea se comportan de manera "curiosa" con margen y padding */
+/* No responden adecuadamente a las propiedades top y bottom */
+.margin-link {
+    border: 1px solid orangered;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px 20px 50px 80px;
+}
+
+#ex5 {
+    border: 1px solid olive;
+    padding: 20px;
+    margin: 10px 30px;
+}
+
+/* Observar la diferencia entre las siguientes cajas */
+#ex6 {
+    border: 5px solid orangered;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 20px;
+    width: 500px;
+}
+
+#ex7 {
+    border: 5px solid orangered;
+    height: 200px;
+    padding: 20px;
+    width: 500px;
+}
+
+#ex8 {
+    font-size: 30px;
+}
+
+#word {
+    /* Elementos en línea no empujan a otros verticalmente, se solapan */
+    /* Sí mueven horizontalmente */
+    border: 10px solid teal;
+    padding: 20px;
+    margin: 30px;
+    /* Esto sucede por el valor por defecto de la propiedad display */
+    /* display: block; */
+    display: inline-block;
+}
+
+.box {
+    border: 1px solid red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+#ex9 {
+    /* Elimina un elemento del documento */
+    /* Útil para distribuir elementos según el tamaño de pantalla */
+    /* No se puede usar en animaciones. Hay que usar opacity en su lugar */
+    display: none;
+}

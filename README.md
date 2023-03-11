@@ -66,3 +66,10 @@ En la carpeta [section10](/section10/) encontramos:
 
 - La carpeta [exercises](/section10/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
 - La carpeta [lessons](/section10/lessons/), que contiene los archivos con los apuntes correspondientes a la elección de selectores en CSS (universal, de elemento, de clase, de _id_, de atributo, de grupo, descendientes, de hijos directos y de composición).
+
+### Section 11: "The box model"
+
+En la carpeta [section11](/section11/) encontramos:
+
+- La carpeta [exercises](/section11/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+- La carpeta [lessons](/section11/lessons/), que contiene los archivos con los apuntes correspondientes al modelo de cajas en HTML (y su versión alternativa) y al trabajo con bordes, medidas, _padding_, márgenes, _display_,
