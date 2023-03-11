@@ -125,3 +125,82 @@
     /* No se puede usar en animaciones. Hay que usar opacity en su lugar */
     display: none;
 }
+
+#ex10 {
+    /* Se pueden establecer márgenes negativos */
+    margin: -3px;
+}
+
+/* Con margin: auto podemos centrar contenido */
+#container2 {
+    border: 1px solid purple;
+    background-color: lavenderblush;
+    height: 400px;
+    width: 400px;
+}
+
+#ex11 {
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 200px;
+}
+
+/* Los márgenes verticales no se acumulan. Se queda con el margen más grande entre elementos */
+/* Con números negativos, funciona igual en valor absoluto... */
+/* Los márgenes horizontales, en cambio, sí se acumulan */
+.ex12 {
+    border: 1px solid mediumseagreen;
+    margin: 0;
+    /* margin-bottom: 20px; */
+    /* En lugar de poner 40px entre elementos, colapsan en los mismo 20px. */
+    /* De hecho, colapsan en el margen de mayor medida */
+    margin: 20px 0;
+}
+
+/* Cuando queremos poner una propiedad a varios elementos, en ocasiones
+renta incluirlos en un div y modificar el estilo del div */
+#layout {
+    margin-left: 80px;
+}
+
+#ex13 {
+    background-color: lemonchiffon;
+    height: 200px;
+    margin: 0 auto;
+    /* Que ocupe un 80% a menos que sea menor de 300px */
+    min-width: 300px;
+    /* Que no crezca más si pasa de 500px */
+    max-width: 500px;
+    width: 80%;
+}
+
+#ex14 {
+    background-color: aquamarine;
+    /* border-radius: 20px; */
+    /* Crea un círculo con 50% si partimos de un cuadrado */
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+}
+
+#ex15 {
+    border: 1px solid salmon;
+    border-radius: 10%;
+    box-shadow: 10px 5px 5px yellowgreen;
+    height: 300px;
+    margin: auto;
+    padding: 1%;
+    width: 300px;
+}
+
+#ex16 {
+    border: 1px solid olive;
+    border-radius: 5%;
+    height: 200px;
+    margin: auto;
+    /* Cuando el contenido no cabe, podemos configurar el comportamiento */
+    overflow: scroll;
+    padding: 1%;
+    width: 200px;
+}

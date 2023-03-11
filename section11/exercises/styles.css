@@ -1,0 +1,42 @@
+body {
+    background-color: #463d36;
+    color: #463d36;
+    font-family: sans-serif;
+}
+
+#card {
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 40px;
+    width: 600px;
+}
+
+#card > h1 {
+    color: #a6192e;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#card > h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#card > p {
+    font-size: 28px;
+    margin-top: 28px;
+}
+
+#card > button {
+    background-color: #463d36;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 30px 40px;
+    text-transform: uppercase;
+}
