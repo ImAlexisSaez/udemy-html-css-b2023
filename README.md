@@ -72,4 +72,4 @@ En la carpeta [section10](/section10/) encontramos:
 En la carpeta [section11](/section11/) encontramos:
 
 - La carpeta [exercises](/section11/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
-- La carpeta [lessons](/section11/lessons/), que contiene los archivos con los apuntes correspondientes al modelo de cajas en HTML (y su versión alternativa) y al trabajo con bordes, medidas, _padding_, márgenes, _display_,
+- La carpeta [lessons](/section11/lessons/), que contiene los archivos con los apuntes correspondientes al modelo de cajas en HTML (y su versión alternativa) y al trabajo con bordes, medidas, _padding_, márgenes, _display_ y sombras.
