@@ -1,0 +1,103 @@
+/* Declaración de fuente para la página */
+body {
+    font-family: "Cormorant", serif;
+}
+
+/* Menú de navegación */
+.navbar {
+    margin: 32px;
+}
+
+.navbar h1 {
+    /* Usamos inline-block para luego declarar márgenes verticales */
+    display: inline-block;
+    font-weight: 300;
+    /* Declaramos el margen superior 0 para que no acumule con el de .navbar */
+    margin: 0 32px 0 0;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links ul {
+    padding: 0;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    color: black;
+    font-size: 20px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+a.active {
+    /* Usaremos border-bottom para tener más control */
+    border-bottom: 1px solid black;
+    /* En lugar de hacerlo así: */
+    /* text-decoration: underline; */
+}
+
+/* Galería de imágenes */
+.photo-card {
+    /* Modelo alternativo de caja para ajustar medidas y evitar que bajen de línea */
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 16px; /* Así no se baja la imagen a la siguiente línea */
+    /* No usar el 50% por el espacio en blanco entre bloques. Se irían abajo */
+    width: 49.75%;
+}
+
+.photo-card img {
+    height: 500px;
+    /* Para que al redimensionar la ventana no se rompa la proporción de la imagen */
+    object-fit: cover;
+    /* 100% de su contenedor padre: el div de clase .photo-card */
+    width: 100%;
+}
+
+.photo-card img:hover {
+    opacity: 0.9;
+}
+
+.photo-card h2 {
+    font-weight: 300;
+    margin: 8px 0 16px 0;
+}
+
+/* Ajustamos los márgenes exteriores modificando el id */
+#photo-gallery {
+    /* El margen de navbar es 32px y el padding de .photo-card es 16px */
+    /* Para alinear, declaramos aquí 16px a la izquierda. */
+    margin: 0 16px 0 16px;
+}
+
+/* Pie de página */
+#about,
+#contact {
+    margin: 100px 0 100px 200px;
+    min-width: 600px;
+    width: 40%;
+}
+
+#about h3 {
+    /* Cambiamos el display para poder subrayarlo luego con borde de caja */
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#about h3.underlined {
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    padding-bottom: 8px;
+}
+
+#contact p {
+    font-size: 20px;
+    margin: 0;
+}
