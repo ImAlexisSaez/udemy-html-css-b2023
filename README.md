@@ -79,3 +79,10 @@ En la carpeta [section11](/section11/) encontramos:
 En la carpeta [section12](/section12/) encontramos:
 
 - La carpeta [project](/section12/project/), que contiene los archivos con el código asociado al proyecto "_Artist Portfolio_".
+
+### Section 13: "Specificity and the cascade"
+
+En la carpeta [section13](/section13/) encontramos:
+
+- La carpeta [exercises](/section13/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+- La carpeta [lessons](/section13/lessons/), que contiene los archivos con los apuntes correspondientes a la selección avanzada de selectores (_adjacent combinator_, _sibling combinator_, _pseudo-classes_, _pseudo-elements_...), así como a la especificidad y a la ordenación en cascada de los estilos.
