@@ -1,0 +1,72 @@
+/* Escogemos solo el primer párrafo inmediatamente tras el heading */
+#adjacent + p {
+    color: orangered;
+}
+
+/* Escoge todos los párrafos hijos de esa cabecera */
+#sibling ~ p {
+    color: darkolivegreen;
+}
+
+/* Pseudo-classes */
+.ex1:hover {
+    text-decoration: underline;
+}
+
+input:disabled {
+    background-color: rgb(247, 183, 183);
+}
+
+a:visited {
+    color: olivedrab;
+}
+
+#pseudo-classes p:first-of-type {
+    border: 1px solid magenta;
+}
+
+#pseudo-classes p:last-of-type {
+    border: 1px solid blue;
+}
+
+#pseudo-classes button:active {
+    background-color: pink;
+}
+
+#pseudo-classes input:focus {
+    background-color: lightblue;
+}
+
+/* Selecciona un h3 que no está incluido en la negación */
+/* body :not(a, div, h2, p, section) {
+    border: 1px dotted lightcoral;
+} */
+
+/* Pseudo-elements */
+#pseudo-elements p::first-line {
+    color: olive;
+}
+
+#pseudo-elements p::first-letter {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+#pseudo-elements p:first-of-type::first-letter {
+    color: brown;
+}
+
+#pseudo-elements input {
+    width: 600px;
+}
+
+#pseudo-elements input::placeholder {
+    color: magenta;
+    font-weight: bold;
+    opacity: 0.25;
+}
+
+#pseudo-elements p::selection {
+    background-color: yellow;
+    color: red;
+}

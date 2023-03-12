@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="advanced_selectors.css" />
+        <title>Advanced Selectors</title>
+    </head>
+    <body>
+        <h1>Advanced selectors</h1>
+
+        <h2 id="adjacent">Adjacent combinator</h2>
+
+        <p>
+            Con el operador + escogemos elementos que están inmediatamente
+            después del primer elemento.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            neque quo excepturi laborum placeat natus repellendus dolorem ut
+            voluptatum, aspernatur ipsam, quod magni magnam praesentium officiis
+            dicta hic. Recusandae, quam!
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+            impedit, doloribus dicta corporis tenetur, quaerat, sint recusandae
+            velit autem repudiandae eveniet nobis harum sunt nam labore sapiente
+            magnam voluptatibus soluta.
+        </p>
+
+        <h2 id="sibling">Sibling combinator</h2>
+
+        <a href="/bloh">Another link!</a>
+
+        <p>
+            El operador ~ escoge "hermanos". El segundo elemento debe seguir al
+            primero (inmediatamente o no) y deben compartir el mismo elemento
+            padre.
+        </p>
+
+        <a href="/blah">Link to nowhere!</a>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo
+            nobis qui vel architecto, iusto cum modi maxime, dolor quam ipsum
+            placeat, et sequi quisquam voluptatibus quae error laudantium
+            labore?
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo qui
+            molestiae amet voluptates mollitia at recusandae, fugiat excepturi
+            cumque velit sequi magni praesentium a. Ea non ex laudantium
+            accusamus! Debitis!
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia id
+            dolores rem, dolorum possimus amet esse nisi itaque, illo ipsa odio
+            nesciunt excepturi quibusdam, aspernatur tempora culpa unde. Magnam,
+            recusandae!
+        </p>
+        <div>
+            <h3>Stop</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                corporis odit natus provident delectus, asperiores maxime
+                placeat aliquam vero veritatis laborum possimus amet minus
+                ducimus quos, id praesentium, soluta fuga?
+            </p>
+        </div>
+        <section id="pseudo-classes">
+            <h2>Pseudo-classes</h2>
+
+            <p>
+                Sirven para determinar estados de un elemento (hover,
+                visited...).
+            </p>
+
+            <p class="ex1">
+                Hover here! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Doloribus veniam, excepturi eos provident repellendus
+                itaque laboriosam quibusdam facere. Voluptatem illum assumenda
+                cupiditate odio odit animi cum quo beatae autem distinctio!
+            </p>
+
+            <div>
+                <input type="text" placeholder="username" disabled />
+                <input type="number" placeholder="rating" />
+                <label for="per">I give you permission to use my rating:</label>
+                <input type="checkbox" id="per" />
+                <button>Submit</button>
+            </div>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                et at facilis quidem provident quasi perferendis quos magni,
+                repudiandae repellendus quaerat neque in alias aperiam itaque,
+                sed, nobis quae nam!
+            </p>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                alias nobis dolorem quod sit? Modi possimus, a facere laboriosam
+                eum vitae soluta minima quibusdam, deleniti autem, deserunt nisi
+                itaque doloribus.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+                blanditiis. Delectus porro sunt velit sed necessitatibus, fuga
+                numquam eos. Deserunt nostrum ipsam harum cum! Natus veritatis
+                optio voluptatem dolor fugit.
+            </p>
+        </section>
+        <section id="pseudo-elements">
+            <h2>Pseudo-elements</h2>
+
+            <p>Se trata de partes de un elemento, no de estados.</p>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                dolore sequi nesciunt quia? Eos repudiandae possimus rerum,
+                iusto veritatis ut, eaque nobis illum quaerat, nemo ad quo
+                dignissimos hic exercitationem? Minus laborum voluptate
+                exercitationem culpa nihil aut adipisci! Quaerat mollitia fuga
+                impedit aliquid voluptate? Veritatis quidem corrupti unde
+                voluptates hic? Illo magni facere debitis aliquam consectetur
+                nulla harum perferendis incidunt. Commodi sequi neque
+                consectetur consequatur totam fugit tenetur minus reiciendis
+                explicabo ipsam assumenda ullam doloribus laudantium quo impedit
+                illum cupiditate, in natus recusandae fuga eius sapiente! Beatae
+                commodi sunt unde?
+            </p>
+
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+                consectetur a quidem quam fugit. Voluptas repellendus eum
+                tenetur, similique optio porro! Explicabo iure a ullam quod
+                architecto quos perspiciatis dolores! Beatae saepe itaque ipsa
+                sit expedita magni, vero repellendus adipisci facilis alias
+                laboriosam reiciendis natus nostrum dolorum rem quis ratione
+                corporis provident. Laudantium, at nesciunt ullam dignissimos
+                deserunt saepe quas.
+            </p>
+
+            <input
+                type="text"
+                placeholder="Texto de prueba para aplicar estilos"
+            />
+        </section>
+    </body>
+</html>

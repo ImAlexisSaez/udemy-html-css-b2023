@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="specificity.css" />
+        <title>Specificity</title>
+    </head>
+    <body>
+        <h1>Specificity</h1>
+
+        <h2>Introducción</h2>
+
+        <p>Cuando varias reglas afecta a un elemento, ¿cuál gana?</p>
+
+        <p class="special">
+            Elemento (type) o clase (class), gana clase. Las clases son más
+            específicas que los elementos.
+        </p>
+
+        <p id="featured" class="special">
+            Los id son más específicos que las clases.
+        </p>
+
+        <p class="special">De más a menos específico:</p>
+        <ol>
+            <li>Inline styles</li>
+            <li>ID selectos</li>
+            <li>Class | Attribute | Pseudo-class</li>
+            <li>Type | Pseudo-elements</li>
+        </ol>
+
+        <p class="special" id="featured" style="text-decoration: underline">
+            Los estilos en línea son los más específicos (por eso no se
+            recomiendan). Es fácil no darse cuenta de un estilo definido así y
+            luego no ver cómo modificarlo.
+        </p>
+
+        <h2>Cálculo de especificidad</h2>
+
+        <p>Se cuentan por puntos de especificidad en el siguiente orden:</p>
+        <ul>
+            <li>ID</li>
+            <li>Class, attribute, pseudo-class</li>
+            <li>Type, pseudo-elements</li>
+        </ul>
+        <p>Así, como ejemplos tenemos:</p>
+        <ul>
+            <li>"div a": (0, 0, 2)</li>
+            <li>".featuren span": (0, 1, 1)</li>
+        </ul>
+        <p>
+            Al final, gana por comparación del primer número más grande de
+            izquierda a derecha. Será el más específico y cuyo estilo se
+            aplique.
+        </p>
+
+        <h2>Cascada</h2>
+
+        <p>
+            En un conflicto de estilos, el orden en el que se aplica la cascada
+            es:
+        </p>
+        <ol>
+            <li>
+                Importancia: podemos usar a la hora de declarar atributos
+                "!important", lo cual eleva la prioridad de ese estilo al máximo
+                posible. No es recomendable usarlo. Un posible uso sería para
+                sobreescribir estilos en librerías que no hemos programado
+                nosotros y no nos resulta fácil cambiar un estilo concreto.
+            </li>
+            <li>Origen</li>
+            <li>Especificidad</li>
+            <li>Posición</li>
+        </ol>
+    </body>
+</html>
