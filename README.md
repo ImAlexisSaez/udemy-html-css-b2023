@@ -92,3 +92,9 @@ En la carpeta [section13](/section13/) encontramos:
 En la carpeta [section14](/section14/) encontramos:
 
 - La carpeta [project](/section14/project/), que contiene los archivos con el código asociado al proyecto "_Blog Post Project_".
+
+### Section 15: "CSS units"
+
+En la carpeta [section15](/section15/) encontramos:
+
+- La carpeta [lessons](/section15/lessons/), que contiene los archivos con los apuntes correspondientes a las unidades de medida en CSS y al trabajo con _floats_.
