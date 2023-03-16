@@ -1,0 +1,53 @@
+/* Los píxeles de CSS no son los píxels físicos del monitor */
+.box {
+    background-color: purple;
+    height: 10px;
+    width: 10px;
+}
+
+/* Porcentajes */
+.container1 {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.box1 {
+    background-color: olive;
+    /* Los % son relativos a los de container1 */
+    height: 50%;
+    width: 50%;
+}
+
+.p1 {
+    font-size: 20px;
+    line-height: 175%;
+}
+
+/* Unidades rem */
+.p2 {
+    font-size: 2rem; /* 2 x 16 px */
+}
+
+/* Unidades em */
+.container2 {
+    font-size: 20px;
+}
+
+.container2 h3 {
+    /* Esos 0.9 em son respecto a los 20px de arriba, ie, 18px */
+    font-size: 0.9em;
+    margin: 0;
+    margin-left: 1em; /* Serían 18 px, el tamaño actual de la fuente para aquí */
+}
+
+.container2 p {
+    font-size: 0.75em; /* 0.75 x 20 px = 15 px */
+}
+
+/* vw y vh */
+.container3 {
+    background-color: magenta;
+    height: 100vh;
+    width: 100vw;
+}

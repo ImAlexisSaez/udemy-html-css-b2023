@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css-units.css" />
+        <title>CSS Units</title>
+    </head>
+    <body>
+        <h1>CSS Units</h1>
+
+        <h2>Tipos de medidas</h2>
+
+        <p>Relativas: em, rem, vh, vw, %...</p>
+
+        <p>Absolutas: px, pt, cm, in, mm.</p>
+
+        <div class="box"></div>
+
+        <p>
+            Las unidades absolutas no escalan, ni responden adecuadamente a
+            cambios en el tamaño de la ventana.
+        </p>
+
+        <h2>Porcentajes</h2>
+
+        <p>
+            Es una unidad de medida relativa a otro valor (a veces con respecto
+            al elemento padre y otras con respecto al propio elemento en sí).
+        </p>
+
+        <div class="container1">
+            <div class="box1"></div>
+        </div>
+
+        <p>
+            El % del siguiente párrafo es con respecto a la propia línea de
+            altura de esta línea. No hay relación con el elemento padre.
+        </p>
+
+        <p class="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            possimus necessitatibus natus qui! Vero in id aut velit eum magni
+            autem aspernatur similique dolore, eveniet quasi quis assumenda
+            facere vitae? Ducimus, reprehenderit minima expedita veniam ipsam
+            recusandae sapiente quasi eius rem esse eveniet nihil tempora
+            aliquam odit facere inventore velit ad ullam dicta dolorem,
+            perferendis vitae molestias similique veritatis! Possimus.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
+            veniam? Necessitatibus illo eos quibusdam facere cum, et recusandae
+            ratione perferendis minima ducimus numquam modi eius sit, molestiae
+            quod, illum hic. Repudiandae voluptatibus cumque aliquam ea quod!
+            Possimus dolores alias debitis animi corporis? Quisquam asperiores
+            laborum itaque laudantium omnis officiis assumenda sit cupiditate
+            quibusdam, ipsa, excepturi necessitatibus, architecto perspiciatis
+            voluptates explicabo.
+        </p>
+
+        <h2>Unidades rem</h2>
+
+        <p class="p2">
+            Son medidas relativas con respecto al elemento raíz de la página (el
+            elemento html en sí mismo). En la mayoría de navegadores, por
+            defecto, es 16 px (=1 rem), pero puede modificarse esa cifra.
+        </p>
+
+        <p>
+            Si el usuario cambia la configuración de su navegador para ver el
+            tamaño de la fuente más grande, todo escala de acuerdo si usamos
+            rem.
+        </p>
+
+        <h2>Unidades em</h2>
+
+        <p>Basada en las dimensiones de la letra mayúscula M.</p>
+
+        <p>1em = el tamaño de la fuente del elemento padre.</p>
+
+        <p>
+            Hay que tener cuidado cuando se anidan elementos con medidas
+            declaradas en em, pues se van encadenando de manera multiplicativa.
+        </p>
+
+        <p>
+            Con otras propiedades distintas del tamaño de fuente, 1 em es igual
+            al valor calculador del tamaño de la fuente para el mismo elemento.
+        </p>
+
+        <div class="container2">
+            <h3>Example of an h3 heading</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                repudiandae autem iusto dolore illum! Facilis atque incidunt
+                dolor voluptate odio ipsam labore iusto ipsum optio aut
+                accusamus, nisi quod nesciunt!
+            </p>
+        </div>
+
+        <h2>Unidades vw y vh</h2>
+
+        <p>
+            1vw es un 1% del ancho del área visible de la ventana del navegador.
+        </p>
+        <p>
+            1vh es un 1% del alto del área visible de la ventana del navegador.
+        </p>
+        <p>100vh hace que un elemento ocupe la pantalla completa.</p>
+
+        <div class="container3"></div>
+
+        <h2>Recomendaciones</h2>
+
+        <p>
+            px: evitar para tamaños de fuentes, pero usar para pequeños detalles
+            como bordes o sombras.
+        </p>
+        <p>rem/em: usar para tamaños de fuentes y padding o márgenes.</p>
+        <p>%: para plantillas y anchos.</p>
+        <p>vh/vw: para tamaños de plantillas grandes.</p>
+    </body>
+</html>

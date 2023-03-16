@@ -1,0 +1,7 @@
+.img1 {
+    /* Saca del flujo la imagen y la pone a la izquierda del contenedor */
+    float: left;
+    height: 400px;
+    margin: 32px;
+    width: 400px;
+}
