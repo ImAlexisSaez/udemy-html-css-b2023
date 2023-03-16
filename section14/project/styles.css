@@ -7,7 +7,31 @@ body {
     padding: 0;
 }
 
-/* Cabecera */
+/* Cabecera (Hero section) */
+.hero {
+    background-color: #863ae8;
+    color: white;
+    height: 100vh; /* Unidad que toma un 100% de la vista vertical */
+    margin-top: 0;
+    text-align: center;
+    /* flexbox: avance de próxima lección*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1,
+.hero p {
+    max-width: 900px;
+    margin: 16px 0;
+    width: 75%;
+}
+
+.hero hr {
+    width: 50%;
+    margin: 32px 0;
+}
 
 /* Contenido principal */
 main {
@@ -30,6 +54,7 @@ h1 {
     font-size: 80px;
     font-weight: 400px;
     letter-spacing: -1.5px;
+    margin: 0;
 }
 
 h2 {
@@ -96,4 +121,34 @@ main h3 {
     margin-left: 20px;
 }
 
+code {
+    color: #e95400;
+    font-weight: 700;
+}
 /* Pie de página */
+footer {
+    background-color: #863ae8;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 28px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: white;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
