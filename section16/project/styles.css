@@ -1,0 +1,79 @@
+/* Hero section */
+body {
+    font-family: "Forum", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #f08e80;
+    color: white;
+    display: inline-block;
+    min-height: 90vh;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.navbar .links a {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.navbar p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar .contact {
+    background-color: white;
+    color: #f08e80;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+
+.hero-content {
+    padding: 0 15%;
+}
+
+.tag-line {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding: 16px 0;
+}
+
+.two-column-section {
+    font-size: 2rem;
+}
+
+.two-column-section p {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+.two-column-section .skills {
+    box-sizing: border-box;
+    float: left;
+    list-style: none;
+    padding: 0;
+    width: 50%;
+}
+
+.two-column-section .skills li {
+    float: left;
+    font-size: 1.25rem;
+    margin: 8px 0;
+    width: 50%;
+}
