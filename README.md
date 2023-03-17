@@ -98,3 +98,9 @@ En la carpeta [section14](/section14/) encontramos:
 En la carpeta [section15](/section15/) encontramos:
 
 - La carpeta [lessons](/section15/lessons/), que contiene los archivos con los apuntes correspondientes a las unidades de medida en CSS y al trabajo con _floats_.
+
+### Section 16: "Hazel CV project"
+
+En la carpeta [section16](/section16/) encontramos:
+
+- La carpeta [project](/section16/project/), que contiene los archivos con el código asociado al proyecto "_Hazel CV Project_".
