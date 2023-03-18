@@ -104,3 +104,10 @@ En la carpeta [section15](/section15/) encontramos:
 En la carpeta [section16](/section16/) encontramos:
 
 - La carpeta [project](/section16/project/), que contiene los archivos con el código asociado al proyecto "_Hazel CV Project_".
+
+### Section 17: "Backgrounds, gradients & filters"
+
+En la carpeta [section17](/section17/) encontramos:
+
+- La carpeta [exercises](/section17/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
+- La carpeta [lessons](/section17/lessons/), que contiene los archivos con los apuntes correspondientes a fondos, gradientes y filtros.
