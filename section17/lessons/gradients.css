@@ -1,0 +1,77 @@
+.box1 {
+    background-image: linear-gradient(cyan, magenta, yellow);
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box2 {
+    background-image: linear-gradient(45deg, cyan, magenta, yellow);
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box3 {
+    background-image: linear-gradient(90deg, cyan, magenta, yellow);
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box4 {
+    background: linear-gradient(
+            217deg,
+            rgba(255, 0, 0, 0.8),
+            rgba(255, 0, 0, 0) 70.71%
+        ),
+        linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box5 {
+    background-image: radial-gradient(red, blue);
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box6 {
+    background-image: radial-gradient(ellipse, red, blue);
+    border: 2px solid black;
+    height: 700px;
+    width: 400px;
+}
+
+.box7 {
+    background-image: conic-gradient(cyan, yellow, magenta, orange, cyan);
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box8 {
+    background-image: repeating-linear-gradient(45deg, olive, yellow 25%);
+    border: 2px solid black;
+    height: 800px;
+    width: 400px;
+}
+
+.box9 {
+    background: url("images/peacock.png") no-repeat center,
+        url("images/sunset.jpg");
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.box10 {
+    background: url("images/sunset.jpg");
+    border: 2px solid black;
+    filter: grayscale();
+    height: 400px;
+    width: 400px;
+}

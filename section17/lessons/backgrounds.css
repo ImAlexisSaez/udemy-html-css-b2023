@@ -1,0 +1,116 @@
+.example-box-1 {
+    /* Es importante añadir url() para incluir la imagen */
+    /* background-image: url("images/people.jpg"); */
+
+    /* Podemos incluir imágenes directamente de internet */
+    /* background-image: url("https://images.unsplash.com/photo-1676474048599-ada5d9ceaa24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+
+    /* Si son muy pequeñas las imágenes se repiten hasta rellenar por defecto */
+    /* background-image: url("images/peacock.png"); */
+
+    /* Si la imagen es transparente, podemos usar color de fondo también. */
+    /* background-color: aquamarine; */
+
+    /* Podemos tener varias imágenes de fondo, separando url() por comas */
+    /* Es muy importante el orden en que coloquemos los url() */
+    background-image: url("images/peacock.png"), url("images/sunset.jpg");
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+}
+
+.example-box-2 {
+    background-image: url("images/peacock.png");
+    /* Para evitar repetir el fondo */
+    /* background-repeat: no-repeat; */
+
+    /* Para repetir horizontalmente */
+    /* background-repeat: repeat-x; */
+
+    /* Para repetir verticamente */
+    background-repeat: repeat-y;
+
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+}
+
+.example-box-3 {
+    background-image: url("images/food.jpg");
+
+    /* Con contain encaja la imagen en el contenedor y la repite */
+    /* background-size: contain; */
+
+    /* Con cover, ajusta la imagen al contenedor (puede haber recorte si no coincide la ratio) */
+    background-size: cover;
+
+    border: 1px solid red;
+    height: 900px;
+    width: 600px;
+}
+
+.example-box-4 {
+    background-image: url("images/people.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    height: 900px;
+    width: 600px;
+}
+
+.example-box-5 {
+    background-image: url("images/people.jpg");
+    background-size: cover;
+    border: 1px solid red;
+    height: 600px;
+    width: 900px;
+}
+
+.example-box-6 {
+    background-image: url("images/people.jpg");
+    background-size: 50% 50%;
+    border: 1px solid red;
+    height: 600px;
+    width: 900px;
+}
+
+.example-box-7 {
+    background-image: url("images/people.jpg");
+
+    /* Controlamos la posición de la imagen respecto al contenedor */
+    background-position: bottom;
+
+    background-size: cover;
+    border: 1px solid red;
+    height: 400px;
+    width: 900px;
+}
+
+.example-box-8 {
+    background-image: url("images/woman.jpg");
+
+    /* Podemos combinar varias claves */
+    background-position: top right;
+    background-size: cover;
+    border: 1px solid red;
+    height: 400px;
+    width: 200px;
+}
+
+.example-box-9 {
+    /* Así no afectaría la imagen al borde */
+    background-clip: padding-box;
+    background-image: url("images/woman.jpg");
+    border: 20px dashed red;
+    height: 400px;
+    width: 400px;
+}
+
+.example-box-10 {
+    /* Así no afectaría la imagen al borde ni al padding */
+    background-clip: content-box;
+    background-image: url("images/woman.jpg");
+    border: 20px dashed red;
+    height: 400px;
+    padding: 30px;
+    width: 400px;
+}
