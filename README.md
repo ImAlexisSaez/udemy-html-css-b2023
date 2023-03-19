@@ -111,3 +111,10 @@ En la carpeta [section17](/section17/) encontramos:
 
 - La carpeta [exercises](/section17/exercises/), que contiene los archivos con el código asociado al ejercicio propuesto en la lección.
 - La carpeta [lessons](/section17/lessons/), que contiene los archivos con los apuntes correspondientes a fondos, gradientes y filtros.
+
+### Section 18: "Positioning"
+
+En la carpeta [section18](/section18/) encontramos:
+
+- La carpeta [exercises](/section18/exercises/), que contiene los archivos con el código asociado a los ejercicios propuestos en la lección.
+- La carpeta [lessons](/section18/lessons/), que contiene los archivos con los apuntes correspondientes a posicionamiento (estático, absoluto, relativo, fijo y capas).
