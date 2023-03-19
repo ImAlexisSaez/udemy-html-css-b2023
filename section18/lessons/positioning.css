@@ -1,0 +1,133 @@
+.ex1 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+    position: static;
+}
+
+.ex2 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.ex3 {
+    background-color: orangered;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+    position: relative;
+    /* Los valores son con respecto a su posición inicial */
+    top: 50px;
+    left: 25px;
+    z-index: 1;
+}
+
+.ex4 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+    position: relative;
+}
+
+.ex5 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    z-index: 2;
+}
+
+.ex6 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+
+.ex7 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.ex8 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 2rem;
+    height: 400px;
+    margin: 30px;
+    position: relative;
+    width: 400px;
+}
+
+.ex9 {
+    background-color: orange;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 2rem;
+    height: 400px;
+    margin: 30px;
+    position: absolute;
+    /* 600px con respecto al margen derecho de la ventana */
+    right: 600px;
+    width: 400px;
+}
+
+.ex10 {
+    background-color: olivedrab;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 2rem;
+    height: 400px;
+    margin: 30px;
+    position: relative;
+    width: 400px;
+}
+
+.box {
+    background-color: olive;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+.special-box {
+    background-color: orangered;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+.special-box span {
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    /* Ahora el 0 es con respecto al padre, .special-box */
+    right: 0;
+}
+
+.hello {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
