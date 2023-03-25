@@ -1,0 +1,39 @@
+.box1 {
+    background-color: olive;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.special-box {
+    background-color: olive;
+    display: inline-block;
+    height: 100px;
+    transform: translateX(800px);
+    width: 100px;
+}
+
+.rotate-box {
+    background-color: olive;
+    display: inline-block;
+    height: 100px;
+    transform: rotate(145deg);
+    width: 100px;
+}
+
+.scale-box {
+    background-color: orangered;
+    display: inline-block;
+    height: 100px;
+    transform: scaleX(2);
+    width: 100px;
+}
+
+.origin-box {
+    background-color: orangered;
+    display: inline-block;
+    height: 100px;
+    transform: rotate(135deg);
+    transform-origin: bottom left;
+    width: 100px;
+}

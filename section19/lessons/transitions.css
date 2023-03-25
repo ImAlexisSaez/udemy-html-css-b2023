@@ -1,0 +1,67 @@
+/* Primer ejemplo */
+.btn1 {
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    /* Si cambia la propiedad background-color, por el motivo que sea, 
+    habrá una transición de 0.5s. El motivo puede ser hover, código
+    escrito en JavaScript, etc. */
+    transition: background-color 0.5s;
+}
+
+.btn1:hover {
+    background-color: orangered;
+    /* Si ponemos transition aquí, solo habrá transición cuando haya hover */
+    /* Al dejar de hacer hover, vuelve a ser blanco de forma brusca */
+    /* transition: background-color 0.5s; */
+}
+
+/* Segundo ejemplo */
+.btn2 {
+    background-color: white;
+    border: 2px solid black;
+    color: orangered;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.5s, color 0.5s;
+    /* Alternativa, usar all cuando se combinan propiedades */
+    /* transition: all 2s; */
+}
+
+.btn2:hover {
+    background-color: orangered;
+    color: white;
+}
+
+/* Tercer ejemplo */
+.btn3 {
+    background-color: white;
+    border: 2px solid black;
+    color: orangered;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    transition: transform 3s ease-in;
+}
+
+.btn3:hover {
+    transform: translateX(100px);
+}
+
+/* Cuarto ejemplo */
+.btn4 {
+    background-color: white;
+    border: 2px solid black;
+    color: orangered;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    /* La transición empezará con un retraso de 1s */
+    transition: transform 3s ease 1s;
+}
+
+.btn4:hover {
+    transform: translateX(100px);
+}

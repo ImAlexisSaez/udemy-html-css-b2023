@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="transitions.css" />
+        <title>Transitions</title>
+    </head>
+    <body>
+        <h1>Transitions</h1>
+
+        <h2>Primer ejemplo</h2>
+
+        <p>
+            El atajo para la propiedad transition tiene la siguiente estructura:
+        </p>
+
+        <p><code>transition: property duration timing-function delay;</code></p>
+
+        <a href="#nowhere" class="btn1">Hover me!</a>
+
+        <h2>Múltiples transiciones</h2>
+
+        <a href="#nowhere" class="btn2">Hover me!</a>
+
+        <h2>Timing functions</h2>
+
+        <a href="#nowhere" class="btn3">Hover me!</a>
+
+        <h2>Transition delays</h2>
+
+        <a href="#nowhere" class="btn4">Hover me!</a>
+
+        <h2>Animation performance</h2>
+
+        <p>
+            No toda propiedad puede verse afectada por transiciones. Hay un
+            listado completo en MDN.
+        </p>
+
+        <p>
+            Propiedades como margin o width no es recomendable animarlas.
+            Fuerzan el cálculo de nuevo del layout (dónde va cada elemento), del
+            pintado y la composición.
+        </p>
+
+        <p>
+            Si hay muchos elementos, puede afectar al rendimiento y a la
+            visualización de la página.
+        </p>
+
+        <p>
+            En cualquier caso, siempre es mejor usar transform que transition.
+            Otra propiedad recomendable para animar es la opacidad de un
+            elemento.
+        </p>
+    </body>
+</html>
