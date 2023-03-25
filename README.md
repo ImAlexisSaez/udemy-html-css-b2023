@@ -118,3 +118,10 @@ En la carpeta [section18](/section18/) encontramos:
 
 - La carpeta [exercises](/section18/exercises/), que contiene los archivos con el código asociado a los ejercicios propuestos en la lección.
 - La carpeta [lessons](/section18/lessons/), que contiene los archivos con los apuntes correspondientes a posicionamiento (estático, absoluto, relativo, fijo y capas).
+
+### Section 19: "Transitions and transforms"
+
+En la carpeta [section19](/section19/) encontramos:
+
+- La carpeta [exercises](/section19/exercises/), que contiene los archivos con el código asociado a los ejercicios propuestos en la lección.
+- La carpeta [lessons](/section19/lessons/), que contiene los archivos con los apuntes correspondientes a transiciones y transformaciones en CSS.
