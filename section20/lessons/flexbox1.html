@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="flexbox1.css" />
+        <title>Flexbox</title>
+    </head>
+    <body>
+        <h1>Flexbox</h1>
+        <h2>Introducción</h2>
+
+        <p>Flexbox es un método para organizar objetos en filas y columnas.</p>
+
+        <p>
+            Es relativamente nuevo y está creado por la dificultad de crear
+            plantillas para páginas web.
+        </p>
+
+        <p>
+            Nos permite distribuir el espacio dinámicamente con elementos de
+            tamaños desconocido, de ahí el término "flex".
+        </p>
+
+        <div class="container0">
+            <div class="box0" style="background-color: #ff5722">1</div>
+            <div class="box0" style="background-color: #ff9800">2</div>
+            <div class="box0" style="background-color: #ffc107">3</div>
+            <div class="box0" style="background-color: #ffeb3b">4</div>
+            <div class="box0" style="background-color: #cddc39">5</div>
+            <div class="box0" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <h2>Display flex & flex axis</h2>
+
+        <p>
+            Partimos de un contenedor "flex" (display: flex;), como pueda ser el
+            siguiente ".container1"; que tiene ciertos objetos o items "flex",
+            como es cada una de las cajas ".box1".
+        </p>
+
+        <div class="container1">
+            <div class="box1" style="background-color: #ff5722">1</div>
+            <div class="box1" style="background-color: #ff9800">2</div>
+            <div class="box1" style="background-color: #ffc107">3</div>
+            <div class="box1" style="background-color: #ffeb3b">4</div>
+            <div class="box1" style="background-color: #cddc39">5</div>
+            <div class="box1" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <p>
+            Al cambiar a display flex, las cajas se alinean horizontalmente
+            (antes eran bloques que se posicionaban en vertical).
+        </p>
+
+        <p>
+            Además, si añadimos "justify-content: flex-end;", las cajas se
+            justifican a la derecha del contenidos. Pero, para ello, debe estar
+            activado el modo de display flex.
+        </p>
+
+        <p>En flexbox hay dos ejes:</p>
+        <ul>
+            <li>
+                Main axis: es el eje horizontal generalmente. Indica en qué
+                dirección fluye el contenido. Normalmente será de izquierda a
+                derecha, aunque si trabajmos con otros idiomas, esto puede
+                invertirse.
+            </li>
+            <li>Cross axis: es el eje vertical.</li>
+        </ul>
+        <p>
+            De todas formas, se pueden invertir los roles de ambos ejes. Por eso
+            no usamos la terminología de eje X y eje Y.
+        </p>
+
+        <h2>Flex direction</h2>
+
+        <p>
+            "flex-direction" controla la dirección del "main axis". Si ponemos
+            row será en fila y con column será en columna. Hay otros valores,
+            que añaden "-reverse" para ir en sentido inverso.
+        </p>
+
+        <p>
+            No obstante, los "reverse" dependen, como hemos dicho antes, del
+            idioma que usemos. En lenguas árabes, se invierten los sentidos que
+            normalmente emplearíamos.
+        </p>
+
+        <div class="container2">
+            <div class="box2" style="background-color: #ff5722">1</div>
+            <div class="box2" style="background-color: #ff9800">2</div>
+            <div class="box2" style="background-color: #ffc107">3</div>
+            <div class="box2" style="background-color: #ffeb3b">4</div>
+            <div class="box2" style="background-color: #cddc39">5</div>
+            <div class="box2" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <h2>Flex-wrap</h2>
+
+        <p>
+            Si incrementamos el tamaño de las cajas. Con un ancho de 150 a 350,
+            de manera que no quepan en una fila. No obstante, el comportamiento
+            por defecto es reducir el tamaño para que todo quepa en una fila.
+            Recalcula y las deja en 200px.
+        </p>
+
+        <div class="container3">
+            <div class="box3" style="background-color: #ff5722">1</div>
+            <div class="box3" style="background-color: #ff9800">2</div>
+            <div class="box3" style="background-color: #ffc107">3</div>
+            <div class="box3" style="background-color: #ffeb3b">4</div>
+            <div class="box3" style="background-color: #cddc39">5</div>
+            <div class="box3" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <p>
+            Para cambiar este comportamiento, necesitamos añadir "flex-wrap:
+            wrap;"
+        </p>
+
+        <div class="container4">
+            <div class="box4" style="background-color: #ff5722">1</div>
+            <div class="box4" style="background-color: #ff9800">2</div>
+            <div class="box4" style="background-color: #ffc107">3</div>
+            <div class="box4" style="background-color: #ffeb3b">4</div>
+            <div class="box4" style="background-color: #cddc39">5</div>
+            <div class="box4" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <p>
+            Si en el contenedor no declaramos altura o anchura, este crecerá
+            hasta acomodar todos los objetos. En este caso, el ancho está
+            declarado, pero no el alto. Si cambiamos el alto de las cajas, el
+            contenedor crece. Si declaramos cierto alta para el contenedor,
+            tendríamos que jugar con la propiedad flex-wrap tal y como hemos
+            hecho para el caso de las filas.
+        </p>
+
+        <p>
+            Al hacerlo por columnas, aparece espacio entre ellas, que podemos
+            modificar más adelante.
+        </p>
+
+        <div class="container5">
+            <div class="box5" style="background-color: #ff5722">1</div>
+            <div class="box5" style="background-color: #ff9800">2</div>
+            <div class="box5" style="background-color: #ffc107">3</div>
+            <div class="box5" style="background-color: #ffeb3b">4</div>
+            <div class="box5" style="background-color: #cddc39">5</div>
+            <div class="box5" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <p>
+            Los valores para flex-wrap son wrap, nowrap y wrap-reverse (este
+            cambia el sentido del cross axis). De normal, va de arriba hacia
+            abajo, pero con wrap-reverse, iríamos de abajo hacia arriba.
+        </p>
+
+        <h2>Justify-content</h2>
+
+        <p>
+            Esta propiedad dice cómo distribuir el espacio a lo largo del eje
+            principal (main axis). Algunos valores son space-between,
+            space-around, flex-start, flex-end, center...
+        </p>
+
+        <div class="container6">
+            <div class="box6" style="background-color: #ff5722">1</div>
+            <div class="box6" style="background-color: #ff9800">2</div>
+            <div class="box6" style="background-color: #ffc107">3</div>
+            <div class="box6" style="background-color: #ffeb3b">4</div>
+            <div class="box6" style="background-color: #cddc39">5</div>
+            <div class="box6" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <p>
+            Esta propiedad funciona de la misma manera si trabajamos por
+            columnas.
+        </p>
+
+        <div class="container7">
+            <div class="box7" style="background-color: #ff5722">1</div>
+            <div class="box7" style="background-color: #ff9800">2</div>
+            <div class="box7" style="background-color: #ffc107">3</div>
+            <div class="box7" style="background-color: #ffeb3b">4</div>
+            <div class="box7" style="background-color: #cddc39">5</div>
+            <div class="box7" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <p>
+            Si añadimos wrap, aplicará la propiedad a cada fila o columna que se
+            genera (tenga los elementos que tenga).
+        </p>
+
+        <h2>Align items</h2>
+
+        <p>
+            Alinea los elementos a lo largo del cross-axis (el vertical
+            generalmente).
+        </p>
+
+        <p>Por defecto, su valor es strech.</p>
+
+        <p>
+            Un valor muy útil para centrar contenido es center. Si lo combinamos
+            con la propiedad justify-content: center; lograremos que el
+            contenido esté en el centro del contenedor, tanto vertical como
+            horizontalmente.
+        </p>
+
+        <div class="container8">
+            <div class="box8" style="background-color: #ff5722">1</div>
+            <div class="box8" style="background-color: #ff9800">2</div>
+            <div class="box8" style="background-color: #ffc107">3</div>
+            <div class="box8" style="background-color: #ffeb3b">4</div>
+            <div class="box8" style="background-color: #cddc39">5</div>
+            <div class="box8" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <h2>Align-content</h2>
+
+        <p>
+            No hace nada a no ser que tengamos varias filas o columnas que estén
+            "wrap". La propiedad controla el espacio entre los elementos de una
+            fila o columna.
+        </p>
+
+        <div class="container9">
+            <div class="box9" style="background-color: #ff5722">1</div>
+            <div class="box9" style="background-color: #ff9800">2</div>
+            <div class="box9" style="background-color: #ffc107">3</div>
+            <div class="box9" style="background-color: #ffeb3b">4</div>
+            <div class="box9" style="background-color: #cddc39">5</div>
+            <div class="box9" style="background-color: #8bc34a">6</div>
+        </div>
+
+        <h2>Align-self</h2>
+
+        <p>
+            La filosofía es la misma que para align-items, pero aplicado a un
+            elemento individual del contenedor.
+        </p>
+
+        <div class="container10">
+            <div class="box10" style="background-color: #ff5722">1</div>
+            <div class="box10" style="background-color: #ff9800">2</div>
+            <div class="box10 special" style="background-color: #ffc107">3</div>
+            <div class="box10" style="background-color: #ffeb3b">4</div>
+            <!-- <div class="box10" style="background-color: #cddc39">5</div>
+            <div class="box10" style="background-color: #8bc34a">6</div> -->
+        </div>
+    </body>
+</html>
