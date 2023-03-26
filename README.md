@@ -125,3 +125,10 @@ En la carpeta [section19](/section19/) encontramos:
 
 - La carpeta [exercises](/section19/exercises/), que contiene los archivos con el código asociado a los ejercicios propuestos en la lección.
 - La carpeta [lessons](/section19/lessons/), que contiene los archivos con los apuntes correspondientes a transiciones y transformaciones en CSS.
+
+### Section 20: "Flexbox, part I"
+
+En la carpeta [section20](/section20/) encontramos:
+
+- La carpeta [exercises](/section20/exercises/), que contiene los archivos con el código asociado a los ejercicios propuestos en la lección.
+- La carpeta [lessons](/section20/lessons/), que contiene los archivos con los apuntes correspondientes a la primera parte de las sesiones asociadas a _flexbox_.
